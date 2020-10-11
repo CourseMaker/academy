@@ -16,13 +16,13 @@ cta_description_string =
 
 module.exports = {
   siteMetadata: {
-    title: "Demo Site Cool School",
+    title: "CourseMaker Academy",
     owner: {
       email: "chris@coursemaker.org",
     },
     landing_page: {
       title_and_description: {
-        title: "The CourseMaker Demo School",
+        title: "The CourseMaker Academy (open-source demo)",
         description: description_string,
       },
       primary_button: {
