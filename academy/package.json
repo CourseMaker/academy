@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "name": "course_demo_site",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
+  },
+  "dependencies": {
+    "gatsby": "^2.24.65",
+    "@coursemaker/gatsby-theme-coursemaker": "^0.1.16",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "tailwindcss": "^1.8.10",
+    "stripe": "^8.107.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
