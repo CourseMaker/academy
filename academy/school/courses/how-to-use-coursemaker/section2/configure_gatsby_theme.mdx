@@ -1,0 +1,57 @@
+---
+title: Configure the Coursemaker Gatsby Theme
+number: 3
+---
+
+In the `gatsby-config.js` you will find a field called `siteMetadata`. This controls the configuration for the school (more
+on defining a `school` in the next section):
+
+```js
+module.exports = {
+  siteMetadata: {
+    title: "Demo Site Cool School",
+    owner: {
+      email: "chris@coursemaker.org",
+    },
+    landing_page: {
+      title_and_description: {
+        title: "The CourseMaker Demo School",
+        description: description_string,
+      },
+      primary_button: {
+        text: "View Courses",
+        color: "green",
+        text_color: "white",
+      },
+      cta_section: {
+        title: "Everything you need to use CourseMaker's Tools",
+        description: cta_description_string,
+      },
+      cta_button: {
+        text: "View Courses",
+        color: "green",
+        text_color: "white",
+      },
+    },
+    stripe_public_key: "update me",
+  },
+  ...
+```
+
+The theme can also take options:
+
+```js
+plugins: [
+    {
+      resolve: `@coursemaker/gatsby-theme-coursemaker`,
+      options: {
+        coursesPath: "schoolMDX/courses",
+        authorsPath: "schoolMDX/authors",
+      },
+    },
+```
+
+Notable options include:
+`coursesPath`: the directory where your course files will be detected
+`authorsPath`: the directory where your author files will be detected
+
