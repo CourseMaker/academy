@@ -1,6 +1,9 @@
 # CourseMaker Academy, powered by @coursemaker/gatsby-theme-coursemaker
 Make Online Courses
 
+## Live Demo
+https://coursemaker.academy/
+
 ## 🗝 Elevator Pitch 
 This Gatsby theme allows you to create a fully-featured, commercial online course website **for free**. 
 Key features:
